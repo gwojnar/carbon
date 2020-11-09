@@ -1,4 +1,96 @@
 {
+  "patients": [
+    {
+      "id": 1,
+      "firstName": "Karol",
+      "lastName": "Kukold",
+      "personalIdentificationNumber": "1234567890",
+      "surveyScoringResult": "GOOD",
+      "surveyScoringResultDate": "2020-01-01",
+      "scoringMarkerResult": "GOOD",
+      "scoringMarkerResultDate": "2020-01-01"
+    },
+    {
+      "id": 2,
+      "firstName": "Grzegorz",
+      "lastName": "Kukold",
+      "personalIdentificationNumber": "1234567891",
+      "surveyScoringResult": "BAD",
+      "surveyScoringResultDate": "2020-01-01",
+      "scoringMarkerResult": "GOOD",
+      "scoringMarkerResultDate": "2020-02-01"
+    },
+    {
+      "id": 3,
+      "firstName": "Adrian",
+      "lastName": "Kukold",
+      "personalIdentificationNumber": "1234567892",
+      "surveyScoringResult": "GOOD",
+      "surveyScoringResultDate": "2020-03-01",
+      "scoringMarkerResult": "BAD",
+      "scoringMarkerResultDate": "2020-04-01"
+    },
+    {
+      "id": 4,
+      "firstName": "Edward",
+      "lastName": "Kukold",
+      "personalIdentificationNumber": "1234567893",
+      "surveyScoringResult": "GOOD",
+      "surveyScoringResultDate": "2020-05-11",
+      "scoringMarkerResult": "GOOD",
+      "scoringMarkerResultDate": "2020-05-11"
+    }
+  ],
+  "scorings": [
+    {
+      "id": 1,
+      "type": "SURVEY",
+      "patientId": 1,
+      "result": "BAD"
+    },
+    {
+      "id": 2,
+      "type": "SURVEY_MARKER",
+      "patientId": 1,
+      "result": "GOOD"
+    },
+    {
+      "id": 3,
+      "type": "SURVEY",
+      "patientId": 2,
+      "result": "GOOD"
+    },
+    {
+      "id": 4,
+      "type": "SURVEY_MARKER",
+      "patientId": 2,
+      "result": "BAD"
+    },
+    {
+      "id": 5,
+      "type": "SURVEY",
+      "patientId": 3,
+      "result": "GOOD"
+    },
+    {
+      "id": 6,
+      "type": "SURVEY_MARKER",
+      "patientId": 3,
+      "result": "BAD"
+    },
+    {
+      "id": 7,
+      "type": "SURVEY",
+      "patientId": 4,
+      "result": "GOOD"
+    },
+    {
+      "id": 8,
+      "type": "SURVEY_MARKER",
+      "patientId": 4,
+      "result": "GOOD"
+    }
+  ],
   "notes": [
     {
       "date": "04-11-2020",
